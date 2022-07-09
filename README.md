@@ -48,13 +48,17 @@ There are some bugs from JSONPlaceholder Public API that resource will not be re
 -   There is some techniques, but in react there are some hooks that can used for caching like useMemo, useCallback, useRef
 
 6. How do you handle offline in React?
-   a. In pure javascript we can detect if the internet is not connectied using navigator.onLine property
+
+-   In pure javascript we can detect if the internet is not connectied using navigator.onLine property
 
 7. Are you good at Sass, bootstrap, CSS?
-   a. I'm good enough in each that you was mentioned it.
+
+-   I'm good enough in each that you was mentioned it.
 
 8. Have you handle admin theme in ReactJs?
-   a. Yes, recently I have been working on it in my final project
+
+-   Yes, recently I have been working on it in my final project
 
 9. Are you okay to go through a small test?
-   a. If you mean unit tests, I don't have enough experience with them, but if needed to working on them, I'm fine but I'll need time to learn it first or while working with the project.
+
+-   If you mean unit tests, I don't have enough experience with them, but if needed to working on them, I'm fine but I'll need time to learn it first or while working with the project.
