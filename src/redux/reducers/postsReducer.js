@@ -16,7 +16,7 @@ import {
 const initialState = {
 	pending: false,
 	error: null,
-	data_list: null,
+	data_list: [],
 	data_post: null,
 	data_patch: null,
 	data_delete: null,

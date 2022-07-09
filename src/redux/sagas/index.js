@@ -2,10 +2,12 @@ import { all, takeLatest } from 'redux-saga/effects';
 import {
 	DELETE_POST_PENDING,
 	GET_POST_PENDING,
+	PATCH_POST_PENDING,
 	POST_POST_PENDING,
 } from '../actions/posts';
 import {
 	handleDeletePost,
+	handlePatchPost,
 	handlePostPosts,
 	handlePostsLoad,
 } from './handlers/post';
@@ -27,7 +29,7 @@ function* deletePostsSaga() {
 
 //watcher saga
 function* editPostsSaga() {
-	yield takeLatest(GET_POST_PENDING, handlePostsLoad);
+	yield takeLatest(PATCH_POST_PENDING, handlePatchPost);
 }
 
 // Export all sagas

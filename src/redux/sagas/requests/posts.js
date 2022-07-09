@@ -11,3 +11,7 @@ export function requestPostPost(data) {
 export function requestDeletePost(id) {
 	return PostsService.deleteData(id);
 }
+
+export function requestPatchPost(id, data) {
+	return PostsService.patchData(id, data);
+}

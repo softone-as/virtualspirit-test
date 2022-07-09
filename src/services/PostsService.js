@@ -32,7 +32,7 @@ async function getData(postId) {
 	return dataPosts;
 }
 
-async function patchData(value) {
+async function patchData(id, value) {
 	const requestOptions = {
 		method: 'PATCH',
 		headers: {
@@ -42,7 +42,7 @@ async function patchData(value) {
 	};
 
 	const res = await fetch(
-		'https://jsonplaceholder.typicode.com/posts',
+		`https://jsonplaceholder.typicode.com/posts/${id}`,
 		requestOptions
 	);
 	const dataPost = await res.json();

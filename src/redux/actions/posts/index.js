@@ -56,3 +56,19 @@ export const deletePostError = (error) => ({
 	type: DELETE_POST_ERROR,
 	error: error,
 });
+
+export const patchPostStart = (id, data) => ({
+	type: PATCH_POST_PENDING,
+	payload: data,
+	postId: id,
+});
+
+export const patchPostSuccess = (data) => ({
+	type: PATCH_POST_SUCCESS,
+	payload: data,
+});
+
+export const patchPostError = (error) => ({
+	type: PATCH_POST_ERROR,
+	error: error,
+});
