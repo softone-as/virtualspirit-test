@@ -37,7 +37,7 @@ There are some bugs from JSONPlaceholder Public API that resource will not be re
 3. How to you encounter performance issue?
 
 -   Working with management of HTTP request to not overloading too much
--
+-   Build the project first before going to production
 
 4. Are you familiar dealing with SEO?
 
